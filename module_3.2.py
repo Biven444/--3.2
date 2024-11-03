@@ -10,7 +10,7 @@ def send_email (message, recipient, *, sender = "university.help@gmail.com"):
     if sender ==  "university.help@gmail.com":
         print(f'Письмо было отправлено с адреса {sender}  на адрес {recipient} ')
     else:
-        print( f'Не стандартный отправителюб. Письмо было отправлено с адреса  {sender}  '
+        print( f'Не стандартный отправитель. Письмо было отправлено с адреса  {sender}  '
                    f'на адрес {recipient} ')
         return
 send_email('Это сообщение для проверки связи', 'vasyok1337@gmail.com')
